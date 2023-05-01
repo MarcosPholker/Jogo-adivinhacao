@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background: linear-gradient(107.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+
+/* scream 1 */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    color: #34355B;
+}
+
+p{
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+    color: #34355BCC;
+}
+
+main{
+    margin-top: -12rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.2px 0.4px rgba(0, 0, 0, 0.1);
+
+    border-radius: 0.6px;
+    width: min(42.8rem, 90%);
+    display: grid;
+    justify-content: center;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+input, button{
+    border: 0;
+    padding: 1.6rem;
+}
+input{
+    font-size: 1.6rem;
+    border-radius: 4px 0px 0px 4px;
+    width: 6.5rem;
+    background-color: #DCE2E9;
+}
+button{
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 0px 4px 4px 0px;
+    width: 8.2rem;
+    background-color: #7879F1;
+    color: white;
+    transition: background 0.3s;
+}
+button:hover{
+    background-color: #5454e6;
+}
+
+
+/* scream 2 */
+    
+.screen2 button{
+    width: 16.6rem;
+    margin-top: 3.3rem;
+    border-radius: 0.4rem;
+}
+.screen2 h2{
+    font-size: 2.4rem;
+    font-weight: normal;
+}
